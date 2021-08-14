@@ -34,7 +34,7 @@ namespace AWSServerlessHub
             var response = new APIGatewayProxyResponse
             {
                 StatusCode = (int)HttpStatusCode.OK,
-                Body = "Hello AWS Serverless",
+                Body = "Developer ko thet AWS Serverless",
                 Headers = new Dictionary<string, string> { { "Content-Type", "text/plain" } }
             };
 
